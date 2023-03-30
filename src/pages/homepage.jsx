@@ -1,9 +1,10 @@
-import Navbar from "../components/shared/navbar";
+import Topbar from "../components/shared/topbar";
 
 export default function Homepage() {
   return (
     <>
-      <Navbar />
+      <Topbar />
+      <div></div>
     </>
   );
 }

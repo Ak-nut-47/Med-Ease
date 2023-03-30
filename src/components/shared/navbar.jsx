@@ -1,19 +1,32 @@
-import axios from "axios";
-import { useEffect, useState } from "react";
-// let url=`https://api.postalpincode.in/pincode/784001`
-let url = "gg";
-const Navbar = () => {
-  const [postOffice, setPostOffice] = useState("");
-  useEffect(() => {
-    axios.get(url).then((res) => {
-      const postOfficeArray = res.data[0].PostOffice;
-      const requiredPostOfficeName = postOfficeArray.find(
-        (item) => item.DeliveryStatus === "Delivery"
-      );
-      setPostOffice(requiredPostOfficeName.Name);
-    });
-  }, []);
-  return <></>;
-};
+import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 
-export default Navbar;
+function Navbar() {
+  return (
+    <Router>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
+        </ul>
+      </nav>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route path="/contact">
+          <Contact />
+        </Route>
+      </Switch>
+    </Router>
+  );
+}
