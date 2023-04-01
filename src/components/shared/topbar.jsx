@@ -30,19 +30,19 @@ let url = `https://api.postalpincode.in/pincode/785662`;
 const Topbar = () => {
   const [postOffice, setPostOffice] = useState("");
   useEffect(() => {
-    axios
-      .get(url)
-      .then((res) => {
-        const postOfficeArray = res.data[0].PostOffice;
-        const requiredPostOfficeName = postOfficeArray.find(
-          (item) => item.DeliveryStatus === "Delivery"
-        );
-        setPostOffice(requiredPostOfficeName.Name);
-        console.log(requiredPostOfficeName.Name);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
+    // axios
+    //   .get(url)
+    //   .then((res) => {
+    //     const postOfficeArray = res.data[0].PostOffice;
+    //     const requiredPostOfficeName = postOfficeArray.find(
+    //       (item) => item.DeliveryStatus === "Delivery"
+    //     );
+    //     setPostOffice(requiredPostOfficeName.Name);
+    //     console.log(requiredPostOfficeName.Name);
+    //   })
+    //   .catch((err) => {
+    //     console.log(err);
+    //   });
   }, []);
 
   return (

@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Quinoa Salad",
+    "description": "Fresh salad with quinoa, spinach, avocado, and cherry tomatoes",
+    "price": 350,
+    "discount": "10%",
+    "image": "https://www.eatwell101.com/wp-content/uploads/2019/07/quinoa-salad-recipe.jpg"
+  },
+  {
+    "name": "Vegan Lentil Soup",
+    "description": "Hearty soup made with lentils, carrots, celery, and tomatoes",
+    "price": 450,
+    "discount": "15%",
+    "image": "https://www.noracooks.com/wp-content/uploads/2019/02/lentil-soup-recipe-500x375.jpg"
+  },
+  {
+    "name": "Greek Yogurt Bowl",
+    "description": "Creamy Greek yogurt with mixed berries, honey, and granola",
+    "price": 250,
+    "discount": "0%",
+    "image": "https://www.delishknowledge.com/wp-content/uploads/2020/02/Greek-Yogurt-Bowl.jpg"
+  },
+  {
+    "name": "Grilled Salmon",
+    "description": "Fresh salmon fillet marinated in lemon and herbs, grilled to perfection",
+    "price": 600,
+    "discount": "20%",
+    "image": "https://www.simplyrecipes.com/thmb/jjKAFvCZLPfOz7VYwlt6P-eDvK0=/2000x1333/filters:no_upscale():max_bytes(150000):strip_icc()/Grilled-Salmon-LEAD-6-2000-a1739fc4335f446baa1c3436428b5855.jpg"
+  },
+  {
+    "name": "Roasted Chicken Breast",
+    "description": "Juicy chicken breast seasoned with herbs and roasted until golden brown",
+    "price": 300,
+    "discount": "0%",
+    "image": "https://www.skinnytaste.com/wp-content/uploads/2009/02/Roasted-Chicken-Breast-2-1-360x360.jpg"
+  },
+  {
+    "name": "Spinach Omelette",
+    "description": "Fluffy omelette filled with spinach, mushrooms, and feta cheese",
+    "price": 350,
+    "discount": "5%",
+    "image": "https://www.cookingclassy.com/wp-content/uploads/2020/04/spinach-and-feta-omelette-23.jpg"
+  },
+  {
+    "name": "Mixed Berry Smoothie",
+    "description": "Refreshing smoothie made with mixed berries, banana, and almond milk",
+    "price": 200,
+    "discount": "0%",
+    "image": "https://www.acouplecooks.com/wp-content/uploads/2020/05/Mixed-Berry-Smoothie-009.jpg"
+  },
+  {
+    "name": "Roasted Sweet Potatoes",
+    "description": "Sweet and savory roasted sweet potatoes with a hint of cinnamon",
+    "price": 150,
+    "discount": "0%",
+    "image": "https://www.eatingbirdfood.com/wp-content/uploads/2019/10/cinnamon-roasted-sweet-potatoes-6.jpg"
+  },
+  {
+    "name": "Greek Salad",
+    "description": "Classic Greek salad with cucumbers, tomatoes, red onion, and feta cheese",
+    "price": 500,
+    "discount": "10%",
+    "image": "https://www.acouplecooks.com/wp-content/uploads/2020/09/Greek-Salad-007.jpg"
+  },
+  {
+    "name": "Acai Bowl",
+    "description": "Smoothie bowl with blended acai, banana, granola, and coconut flakes",
+    "price": 300,
+    "discount": "10%",
+    "image": "https://www.delish.com/uk/wp-content/uploads/sites/30/2019/07/acai-bowl.jpg"
+  },
+  {
+    "name": "Avocado Toast",
+    "description": "Toasted bread topped with smashed avocado, sliced tomatoes, and feta cheese",
+    "price": 200,
+    "discount": "5%",
+    "image": "https://www.delishknowledge.com/wp-content/uploads/2020/05/avocado-toast-3.jpg"
+  },
+  {
+    "name": "Oatmeal Bowl",
+    "description": "Warm oatmeal with banana slices, peanut butter, and chocolate chips",
+    "price": 220,
+    "discount": "0%",
+    "image": "https://www.delishknowledge.com/wp-content/uploads/2021/02/peanut-butter-banana-oatmeal-bowl-3.jpg"
+  },
+  {
+    "name": "Egg Sandwich",
+    "description": "English muffin sandwich with scrambled eggs, cheddar cheese, and bacon",
+    "price": 280,
+    "discount": "15%",
+    "image": "https://www.delishknowledge.com/wp-content/uploads/2020/04/egg-sandwich-4.jpg"
+  },
+  {
+    "name": "Smoothie Bowl",
+    "description": "Blended smoothie bowl with spinach, banana, almond milk, and mixed berries",
+    "price": 290,
+    "discount": "0%",
+    "image": "https://www.delishknowledge.com/wp-content/uploads/2019/07/spinach-smoothie-bowl-2.jpg"
+  },
+  {
+    "name": "Breakfast Burrito",
+    "description": "Flour tortilla filled with scrambled eggs, black beans, avocado, and salsa",
+    "price": 320,
+    "discount": "10%",
+    "image": "https://www.delishknowledge.com/wp-content/uploads/2020/04/breakfast-burrito-2.jpg"
+  },
+  {
+    "name": "Chia Pudding",
+    "description": "Chia seeds soaked in almond milk with vanilla extract, maple syrup, and sliced fruit",
+    "price": 240,
+    "discount": "0%",
+    "image": "https://www.delishknowledge.com/wp-content/uploads/2018/03/chia-pudding-3.jpg"
+  },
+  {
+    "name": "Bagel and Lox",
+    "description": "Toasted bagel with smoked salmon, cream cheese, red onion, and capers",
+    "price": 350,
+    "discount": "0%",
+    "image": "https://www.delishknowledge.com/wp-content/uploads/2019/05/lox-bagel-3.jpg"
+  },
+  {
+    "name": "Fruit and Yogurt Parfait",
+    "description": "Layered Greek yogurt with fresh berries, honey, and granola",
+    "price": 260,
+    "discount": "5%",
+    "image": "https://www.delishknowledge.com/wp-content/uploads/2020/05/fruit-and-yogurt-parfait-2.jpg"
+  }
+]
