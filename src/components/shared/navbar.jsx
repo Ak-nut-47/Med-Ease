@@ -3,7 +3,7 @@ import { Box, Center, Flex } from "@chakra-ui/layout";
 function Navbar() {
   const navLinks = [
     "Medicine",
-    "Lab Tests",
+
     "Healthcare",
     "Surgeries",
     "Health Blogs",
@@ -20,13 +20,31 @@ function Navbar() {
         fontWeight="semibold"
         color="blackAlpha.700"
       >
-        {navLinks.map((link) => (
-          <Box pr="30px">
-            <Center>
-              <Link to="/">{link}</Link>
-            </Center>
-          </Box>
-        ))}
+        <Center pr="30px">
+          <Link to="/">Home</Link>
+        </Center>
+        <Center pr="30px">
+          <Link to="/products">Products</Link>
+        </Center>
+
+        <Center pr="30px">
+          <Link to="/products">Surgeries</Link>
+        </Center>
+        <Center pr="30px">
+          <Link to="/products">Health Blogs</Link>
+        </Center>
+        <Center pr="30px">
+          <Link to="/products">PLUS</Link>
+        </Center>
+        <Center pr="30px">
+          <Link to="/products">Offers</Link>
+        </Center>
+        <Center pr="30px">
+          <Link to="/products">Value Store</Link>
+        </Center>
+        <Center pr="30px">
+          <Link to="/products">Medicine</Link>
+        </Center>
       </Flex>
     </>
   );
