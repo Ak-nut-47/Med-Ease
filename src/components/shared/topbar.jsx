@@ -11,7 +11,7 @@ import {
   Flex,
   Icon,
 } from "@chakra-ui/react";
-
+import { Link, useNavigate } from "react-router-dom";
 // -------------------------------------------------------
 //All React Icon Pack Imports
 
@@ -29,6 +29,7 @@ let url = `https://api.postalpincode.in/pincode/785662`;
 // let url = "gg";
 const Topbar = () => {
   const [postOffice, setPostOffice] = useState("");
+  const navigate = useNavigate();
   useEffect(() => {
     // axios
     //   .get(url)
@@ -94,6 +95,15 @@ const Topbar = () => {
             icon={<BsPersonFill />}
             text="Hello, Log in"
           />
+          <Center>
+            <Link to="/admin">
+              <TopbarIconFlex
+                iconbg="white"
+                icon={<BsPersonFill />}
+                text="Admin Panel"
+              />
+            </Link>
+          </Center>
           <TopbarIconFlex
             iconbg="white"
             icon={<MdOutlineLocalOffer />}
