@@ -1,5 +1,4 @@
-# innate-earth-4569
-Med Ease - E-Pharmacy Website
+# Med Ease - E-Pharmacy Website
 Med Ease is a leading Indian e-pharmacy website, providing easy access to essential medicine and healthcare products from the comfort of your own home. This project was built as a Construct Week project for the basic React course.
 
 Their tagline, "Effortless healthcare," reflects their commitment to making healthcare accessible and convenient for all. With a vast selection of medication and healthcare products, customers can easily browse and purchase the items they need online.
